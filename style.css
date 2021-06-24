@@ -1,0 +1,53 @@
+body
+{
+    position: absolute;
+    top: 38%;
+    left: 48%;
+    
+    background-color: white;
+    transition: .5s ease-in-out;
+}
+
+body.black {
+
+    background-color: black;
+}
+
+i.yellow
+{
+    color: yellow;
+}
+
+i.white
+{
+    color: white;
+}
+
+i
+{
+    font-size: 90px;
+    cursor: pointer;
+    color: white;
+    transition: 1.4s all
+}
+
+@media screen and (max-width: 380px) {
+    body
+    {
+        position: absolute;
+        top: 38%;
+        left: 39%;
+    }
+}
+
+@media screen and (max-width: 411px) {
+    body
+    {
+        position: absolute;
+        top: 38%;
+        left: 39%;
+    }
+}
+
+
+
